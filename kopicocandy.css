@@ -13,6 +13,9 @@ body,h1,h3,h4{
     padding-bottom: 42px;
     border-bottom: 0.2px solid #2c2b2b;
 }
+.title:hover{
+    color: rgb(234, 11, 11);
+}
 .title{
     padding-top: 37px;
     font-family: 'Playfair Display', serif;
@@ -21,6 +24,7 @@ body,h1,h3,h4{
     font-size: 50px;
     font-weight: 200;
     color: #b7b7b7;
+    transition:  0.5s;
 }
 .subtitle{
     padding-top: 2px;
@@ -48,6 +52,10 @@ font-weight: 600;
 letter-spacing: 1px;
 color: white;
 text-decoration: none;
+transition:  0.5s;
+}
+.home:hover{
+    color: rgb(234, 11, 11);
 }
 .menu{
     padding-top: 7px;
@@ -58,6 +66,10 @@ text-decoration: none;
     letter-spacing: 1px;
     color: white;
     text-decoration: none;
+    transition:  0.5s;
+}
+.menu:hover{
+    color: rgb(234, 11, 11);
 }
 .title1{
     width: 880px;
